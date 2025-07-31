@@ -55,10 +55,18 @@
             z-index: 2;
         }
 
+        .logo {
+            max-width: 400px;
+            max-height: 150px;
+            margin: 0 auto 20px;
+            display: block;
+        }
+
         h1 {
             font-size: 3.5rem;
             margin-bottom: 10px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            display: none;
         }
 
         .subtitle {
@@ -147,7 +155,8 @@
         .screenshot img {
             width: 100%;
             height: 200px;
-            object-fit: cover;
+            object-fit: contain;
+            background: #1a1a1a;
         }
 
         .screenshot-placeholder {
@@ -253,6 +262,7 @@
     <div class="container">
         <header class="header">
             <div class="header-content">
+                <img src="images/twilight-shift-logo.png" alt="Twilight Shift" class="logo">
                 <h1>Twilight Shift</h1>
                 <div class="subtitle">3D Platformer Game</div>
                 <div class="course-info">GMU CS 325 – Summer 2025 | Twilight Studios</div>
@@ -301,7 +311,7 @@
                 <h2>Screenshots</h2>
                 <div class="screenshots-grid">
                     <div class="screenshot">
-                        <img src="images/Screenshot 2025-07-31 000327.png" alt="Dawn and Dusk Realm Concept">
+                        <img src="images/concept-art.png" alt="Dawn and Dusk Realm Concept">
                         <div class="screenshot-caption">Concept visualization showing the dual-realm system with Dawn (left) and Dusk (right) environments</div>
                     </div>
                     <div class="screenshot">
@@ -319,10 +329,10 @@
                 <h2>Development Team</h2>
                 <div class="team-grid">
                     <div class="team-member">
-                        <div class="member-photo">MA</div>
-                        <div class="member-name">Mohammad Asim</div>
-                        <div class="member-role">Project Coordinator</div>
-                        <p>VFX Artist & Story Designer - Leading project coordination while crafting the visual effects and narrative elements that bring the dual-realm concept to life.</p>
+                        <div class="member-photo">SK</div>
+                        <div class="member-name">Samuel Klosky</div>
+                        <div class="member-role">Technical Artist</div>
+                        <p>VFX & Programming - Developing the technical systems for realm transitions and creating stunning visual effects for both Dawn and Dusk environments.</p>
                     </div>
                     <div class="team-member">
                         <div class="member-photo">NR</div>
@@ -331,10 +341,10 @@
                         <p>VFX & Programming - Building core gameplay mechanics and visual systems that enable seamless realm-switching and dynamic platforming.</p>
                     </div>
                     <div class="team-member">
-                        <div class="member-photo">SK</div>
-                        <div class="member-name">Samuel Klosky</div>
-                        <div class="member-role">Technical Artist</div>
-                        <p>VFX & Programming - Developing the technical systems for realm transitions and creating stunning visual effects for both Dawn and Dusk environments.</p>
+                        <div class="member-photo">MA</div>
+                        <div class="member-name">Mohammad Asim</div>
+                        <div class="member-role">Project Coordinator</div>
+                        <p>VFX Artist & Story Designer - Leading project coordination while crafting the visual effects and narrative elements that bring the dual-realm concept to life.</p>
                     </div>
                 </div>
             </section>
